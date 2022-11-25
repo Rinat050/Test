@@ -1,0 +1,1070 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    background: #E7E7E7;
+    color: #1C49CF;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* HEADER */
+
+.header ul {
+    list-style-type: none; 
+}
+
+.nav ul li {
+    transition: transform;
+}
+
+li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav ul li:hover {
+    transform: scale(1.1);
+    transition-duration: 400ms;
+}
+
+/* LINK */
+
+a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+a {
+    transition: transform .2s;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1C49CF; 
+}
+
+.header {
+    margin: 0 auto;
+    max-width: 90%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#img-logo {
+    width: 136px;
+    height: 119px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* BLOCK-Company*/
+
+#block-car {
+    background: url(images/car-main.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+}
+
+#opacity-car {
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.company-info { 
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.company-name {
+    font-size: 48px;
+    padding-top: 80px;  
+}
+
+.company-slogan {
+    font-size: 64px;
+    padding-top: 200px; 
+}
+
+/* BLOCK SERVICES */
+
+.blocks-head {
+    margin-bottom: 50px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.services-content {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 32px;
+    align-items: center;
+}
+
+.services-content ul {
+    padding-left: 60px;
+}
+
+.services-content ul li {
+    display: block;
+    padding-bottom: 30px;
+}
+
+.services-content ul li:last-child {
+    padding: 0;
+}
+
+.services-content ul li:before {
+    content: '✔';
+    color: #1C49CF;
+    padding-right: 15px;
+}
+
+.img-services-repair {
+    width: 40%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.block-services {
+    background-color: #FFFFFF;
+    padding-top: 18px;
+    padding-bottom: 80px;
+}
+
+/* BLOCK REPAIR */
+
+.blocks-head-white {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.block-repair-form {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background-color: #1C49CF;
+}
+
+.repair-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: flex-end;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field-text {
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#form-field-phone {
+    width: 85%;
+}
+
+.input-field {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border-color: white;
+    color: #3F3F3F;
+    width: 80%;
+    height: 65px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px;
+    transition: transform .2s;
+}
+
+.input-field:hover {
+    transform: scale(1.1);
+}
+
+.input-field:focus {
+    outline: none;
+    transform: scale(1.1);
+}
+
+.main-btn {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 65px;
+    width: 23%;
+    background: #1C49CF;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+.main-btn:hover {
+    transform: scale(1.1);
+}
+
+/* BLOCK PROMOTIONS*/
+
+.block-promotions {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #FFFFFF;
+}
+
+.block-promotions h2{
+    margin-bottom: 20px;
+    
+}
+
+.promotion-info {
+    width: 100%;
+    height: 235px;
+    opacity: 0.9;
+}
+
+#promotion-1 {
+    background: url(images/img-2.jpg) no-repeat;
+    background-size: cover;
+}
+
+#promotion-2 {
+    background: url(images/img-3.jpg) no-repeat;
+    background-size: cover;
+}
+
+#promotion-3 {
+    background: url(images/car-1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.promotion-description {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #1C49CF;
+    height: 60px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+}
+
+.promotion {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.promotion-date {
+    margin-top: 25px;
+    width: 40%;
+    height: 36px;
+    background: #1C49CF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promotion-date-text {
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.promotions-content {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* BLOCK FEEDBACK*/
+.block-feedback {
+    background-color: #FFFFFF;
+    padding-bottom: 45px;
+}
+
+.feedback-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feedback {
+    background: #FFFFFF;
+    border: 2px solid #1C49CF;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.block-feedback .blocks-head {
+    margin-bottom: 35px;
+}
+.feedback-info {
+    display: flex;
+    align-items: center;
+}
+
+.feedback-description {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* BLOCK CONSULTATION*/
+
+.block-consultation {
+    background-color: #1C49CF;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.block-consultation .main-btn {
+    width: 25%;
+}
+
+.consultation-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* FOOTER */
+
+.footer {
+    background: linear-gradient(180deg, #1C49CF 0%, rgba(28, 73, 207, 0.5) 100%);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.footer-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-contacts {
+    width: 52px;
+    height: 52px;
+}
+
+.contacts-phone {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+}
+
+.footer-content .nav a {
+    color: #FFFFFF;
+}
+
+.footer-hr {
+    border-color: #E7E7E7;
+    border-width: 1px;
+    margin-top: 50px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#footer-coopyright {
+    padding: 0;
+    margin: 0;
+    color: #E7E7E7;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* MEDIA */
+
+@media (min-width: 1920px) {
+    #block-car {
+        height: 85vh;
+    }
+
+    #opacity-car {
+        height: 85vh;
+    }
+
+    .company-name {
+        font-size: 55px;
+    }
+
+    .company-slogan {
+        font-size: 68px;
+        padding-top: 220px; 
+    }
+
+    .blocks-head {
+        font-size: 40px;
+    }
+
+    .services-content {
+        font-size: 40px;
+    }
+
+    .services-content ul li {
+        padding-bottom: 60px;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
+    .consultation-content .input-field {
+        width: 90%;
+    }
+
+    .repair-content .main-btn {
+        width: 20%;
+    }
+
+    .consultation-content .main-btn {
+        width: 20%;
+    }
+
+    .repair-content {
+        justify-content: space-around;
+    }
+
+    #form-field-phone {
+        width: 100%;
+    }
+
+    .promotion-info {
+        height: 350px;
+    }
+
+    .promotion-date {
+        margin-top: 40px;
+        height: 50px;
+    }
+    
+    .promotion-date-text {
+        font-size: 20px;
+    }
+
+    .feedback-description {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .promotion-description {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #1C49CF;
+        height: 80px;
+        font-size: 22px;
+    }
+}
+
+@media(min-width: 1480px) and (max-width: 1619px){
+    #block-car {
+        height: 80vh;
+    }
+
+    #opacity-car {
+        height: 80vh;
+    }
+
+    .promotion-info {
+        height: 290px;
+    }
+
+    .promotion-date {
+        margin-top: 40px;
+        height: 50px;
+    }
+    
+    .promotion-date-text {
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 1620px) and (max-width: 1919px){
+    #block-car {
+        height: 85vh;
+    }
+
+    #opacity-car {
+        height: 85vh;
+    }
+
+    .promotion-info {
+        height: 290px;
+    }
+
+    .promotion-date {
+        margin-top: 40px;
+        height: 50px;
+    }
+    
+    .promotion-date-text {
+        font-size: 20px;
+    }
+
+    .blocks-head {
+        font-size: 36px;
+    }
+
+    .services-content {
+        font-size: 36px;
+    }
+
+    .services-content ul li {
+        padding-bottom: 45px;
+    }
+
+    .input-field {
+        width: 90%;
+    }
+
+    .consultation-content .input-field {
+        width: 90%;
+    }
+}
+
+@media(min-width: 1820px) and (max-width: 1919px){
+    .input-field {
+        width: 95%;
+    }
+
+    .repair-content .main-btn {
+        width: 20%;
+    }
+
+    .consultation-content .main-btn {
+        width: 20%;
+    }
+
+    .repair-content {
+        justify-content: space-around;
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1295px){
+    #block-car {
+        height: 95vh;
+    }
+
+    #opacity-car {
+        height: 95vh;
+    }
+
+    .blocks-head {
+        font-size: 32px;
+    }
+
+    .services-content {
+        font-size: 27px;
+    }
+
+    .services-content ul li {
+        padding-bottom: 15px;
+    }
+
+    .company-name {
+        font-size: 40px;
+    }
+
+    .company-slogan {
+        font-size: 49px;
+        padding-top: 220px; 
+    }
+
+    .main-btn {
+        font-size: 23px;
+    }
+
+    .promotion-info {
+        height: 200px;
+    }
+    
+    .promotion-description {
+        font-size: 18px;
+    }
+
+    .contacts-phone {
+        font-size: 13px;
+    }
+
+    .img-contacts {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-content .nav ul li{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 1100px) and (max-width: 1295px){
+    .services-content {
+        font-size: 30px;
+    }
+
+    .services-content ul li {
+        padding-bottom: 20px;
+    }
+}
+
+@media(min-width: 800px) and (max-width: 1100px){
+    .services-content {
+        font-size: 20px;
+    }
+
+    .services-content ul li {
+        padding-bottom: 7px;
+    }
+
+    .blocks-head {
+        font-size: 25px;
+    }
+
+    .company-name {
+        font-size: 32px;
+    }
+
+    .company-slogan {
+        font-size: 38px;
+        padding-top: 100px; 
+    }
+
+    .main-btn {
+        font-size: 18px;
+        height: 55px;
+        padding: 5px;
+    }
+
+    .promotions-content {
+        justify-content: space-around;
+    }
+
+    .promotion {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .contacts-phone {
+        font-size: 10px;
+    }
+
+    .img-contacts {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-content .nav ul li{
+        font-size: 16px;
+    }
+
+    .feedback {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .feedback-content {
+        justify-content: space-around;
+    }
+
+    .feedback-info h2 {
+        font-size: 26px;
+    }
+
+    .input-field {
+        width: 80%;
+        height: 55px;
+        font-weight: 700;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .header .nav {
+        font-size: 17px;
+    }
+}
+
+@media(min-width: 960px) and (max-width: 1100px){
+    .services-content {
+        font-size: 22px;
+    }
+
+    .services-content ul li {
+        padding-bottom: 18px;
+    }
+
+    .header .nav {
+        font-size: 19px;
+    }
+
+    .promotion-info {
+        height: 250px;
+    }
+    
+    .promotion-description {
+        font-size: 18px;
+    }
+
+    .contacts-phone {
+        font-size: 13px;
+    }
+}
+
+@media(min-width: 330px) and (max-width: 800px){
+    .services-content {
+        flex-wrap: wrap;
+        font-size: 18px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .block-services {
+        padding-bottom: 10px;
+    }
+
+    .services-content ul {
+        padding: 0;
+    }
+
+    .services-content ul li {
+        padding-bottom: 3px;
+        text-align: center;
+    }
+
+    .img-services-repair {
+        width: 85%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    .blocks-head {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .company-name {
+        font-size: 28px;
+    }
+
+    .company-slogan {
+        font-size: 32px;
+        padding-top: 100px; 
+    }
+    
+    .repair-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form-field {
+        width: 90%;
+    }
+
+    #form-field-phone {
+        width: 100%;
+    }
+
+    .main-btn {
+        width: 50%;
+        font-size: 18px;
+        height: 55px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .promotions-content {
+        justify-content: space-around;
+    }
+
+    .promotion {
+        width: 90%;
+        margin-bottom: 13px;
+    }
+
+    .contacts-phone {
+        font-size: 10px;
+    }
+
+    .img-contacts {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-content .nav ul li{
+        font-size: 16px;
+    }
+
+    .feedback {
+        width: 90%;
+        margin-bottom: 13px;
+    }
+
+    .feedback-content {
+        justify-content: space-around;
+    }
+
+    .feedback-info h2 {
+        font-size: 26px;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
+    .consultation-content {
+        flex-wrap: wrap;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .consultation-content .main-btn {
+        width: 50%;
+    }
+
+    .header .nav ul li{
+        display: block;
+        font-size: 15px;
+    }
+
+    .img-contacts {
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer-contacts {
+        flex-wrap: wrap;
+    }
+
+    .footer .nav ul li{
+        display: block;
+    }
+
+    #block-car {
+        height: 65vh;
+    }
+
+    #opacity-car {
+        height: 65vh;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 800px){
+    .services-content {
+        flex-wrap: wrap;
+        font-size: 22px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block-services {
+        padding-bottom: 15px;
+    }
+
+    .services-content ul li {
+        padding-bottom: 5px;
+        text-align: center;
+    }
+
+    .img-services-repair {
+        width: 85%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    .company-name {
+        padding-top: 20px;
+        font-size: 28px;
+    }
+
+    .company-slogan {
+        font-size: 32px;
+        padding-top: 100px; 
+    }
+    
+    .repair-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form-field {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #form-field-phone {
+        width: 90%;
+    }
+
+    .main-btn {
+        width: 40%;
+        font-size: 18px;
+        height: 55px;
+        padding: 5px;
+        margin-top: 15px;
+    }
+
+    .promotions-content {
+        justify-content: space-around;
+    }
+
+    .promotion {
+        width: 90%;
+        margin-bottom: 13px;
+    }
+
+    .promotion-info {
+        height: 350px;
+    }
+
+    .contacts-phone {
+        font-size: 10px;
+    }
+
+    .img-contacts {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-content .nav ul li{
+        font-size: 22px;
+    }
+
+    .feedback {
+        width: 90%;
+        margin-bottom: 13px;
+    }
+
+    .feedback-content {
+        justify-content: space-around;
+    }
+
+    .feedback-info h2 {
+        font-size: 26px;
+    }
+
+    .input-field {
+        width: 90%;
+    }
+
+    .consultation-content .input-field {
+        width: 60%;
+    }
+
+    .consultation-content {
+        flex-wrap: wrap;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .consultation-content .main-btn {
+        width: 40%;
+    }
+
+    .header .nav ul li{
+        display: inline;
+        font-size: 14px;
+    }
+
+    .img-contacts {
+        width: 55px;
+        height: 55px;
+    }
+
+    .footer-contacts {
+        flex-wrap: wrap;
+    }
+
+    .contacts-phone {
+        font-size: 14px;
+    }
+
+    #block-car {
+        height: 65vh;
+    }
+
+    #opacity-car {
+        height: 65vh;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 480px) {
+    #block-car {
+        height: 45vh;
+    }
+
+    #opacity-car {
+        height: 45vh;
+    }
+
+    .company-name {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .company-slogan {
+        font-size: 24px;
+        padding-top: 60px; 
+    }
+
+    .services-content ul li{
+        font-size: 16px;
+        
+    }
+
+    .services-content ul{
+        width: 90%;
+        
+    }
+
+    .blocks-head {
+        font-size: 20px;
+    }
+
+    .footer-contacts {
+        width: 25%;
+    }
+}
